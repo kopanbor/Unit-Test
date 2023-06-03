@@ -24,5 +24,16 @@ public class ScoreKeeper {
     public void scoreTeamWIN3(){
         scoreTeamWIN += 3;
     }
+    public void scoreTeamBWL1() {
+        scoreTeamBWL += 1;
+    }
+
+    public void scoreTeamBWL2() {
+        scoreTeamBWL += 2;
+    }
+
+    public void scoreTeamBWL3() {
+        scoreTeamBWL += 3;
+    }
 
 }
