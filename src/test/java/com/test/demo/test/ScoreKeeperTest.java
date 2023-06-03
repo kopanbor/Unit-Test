@@ -37,4 +37,21 @@ public class ScoreKeeperTest {
         assertEquals("003:000", scoreKeeper.getScore());
     }
 
+    @Test
+    public void testScoreTeamBWL1() {
+        scoreKeeper.scoreTeamBWL1();
+        assertEquals("000:001", scoreKeeper.getScore());
+    }
+
+    @Test
+    public void testScoreTeamBWL2() {
+        scoreKeeper.scoreTeamBWL2();
+        assertEquals("000:002", scoreKeeper.getScore());
+    }
+
+    @Test
+    public void testScoreTeamBWL3() {
+        scoreKeeper.scoreTeamBWL3();
+        assertEquals("000:003", scoreKeeper.getScore());
+    }
 }
